@@ -1,0 +1,14 @@
+[package]
+name = "polkadot-child-safety-protocol"
+version = "0.1.0"
+edition = "2021"
+authors = ["anatoliayouth"]
+description = "Web3 Child Safety PoC on Polkadot using ink! contracts, KILT DIDs"
+license = "MIT"
+repository = "https://github.com/anatoliayouth/polkadot-child-safety-protocol"
+
+[dependencies]
+# Placeholder dependencies - will be populated as contracts are added
+
+[dev-dependencies]
+# Placeholder dev dependencies
