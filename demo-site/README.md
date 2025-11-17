@@ -28,7 +28,25 @@ Then open <http://localhost:3000> in your browser and explore the simulated guar
 - TypeScript
 - React Toastify
 
+## Testing
+
+Run the comprehensive test suite:
+
+```bash
+npm test
+```
+
+**Test Coverage**: 32 tests across 6 test suites
+- DemoState context logic
+- useMockContracts hook utilities
+- GuardianPanel, RegistryPanel, and SimulatePanel components
+- EventsLog component
+- Full validation and state management
+
+See [TEST_SUMMARY.md](./TEST_SUMMARY.md) for detailed test information.
+
 ## Notes
 
 - All state is stored in-memory and resets on refresh.
 - Designed for quick local demos in under two minutes.
+- No blockchain connection required—all interactions are mocked.
