@@ -34,6 +34,18 @@ npm start
 
 The dashboard will open at `http://localhost:3000`
 
+### Interactive Demo
+
+Try the fully mocked Next.js demo locally:
+
+```bash
+cd demo-site
+npm install
+npm run dev
+```
+
+Then open `http://localhost:3000` in your browser to explore the simulated guardian and safety registry flows.
+
 ### Testing
 
 ```bash
